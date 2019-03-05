@@ -1,0 +1,12 @@
+Source: ncsdk
+Section: devel
+Priority: optional
+Maintainer: Alessandro de Oliviera Faria (A.K.A. CABELO) <cabelo@opensuse.org>
+Build-Depends: apt, g++, xorg-dev, make, libx11-dev, libreadline-dev,  debhelper (>= 4.1.16), sudo, unzip, coreutils, curl, git, python3,libprotobuf-dev, libleveldb-dev, libsnappy-dev, libopencv-dev, libhdf5-serial-dev, protobuf-compiler, libatlas-base-dev, python3-dev, python3-pip, python3-numpy, automake, byacc, lsb-release, cmake, python3-scipy, libgflags-dev, libgoogle-glog-dev, liblmdb-dev, swig3.0, graphviz, libxslt-dev, libxml2-dev, gfortran, python3-yaml, python3-nose, python-pip, python-numpy
+
+Package: ncsdk
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: ncsdk
+ This Intel® Movidius™ Neural Compute software developer kit (NCSDK) is provided for users of the Intel® Movidius™ Neural Compute Stick (Intel® Movidius™ NCS).
+

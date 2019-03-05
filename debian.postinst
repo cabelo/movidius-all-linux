@@ -1,0 +1,6 @@
+#!/bin/bash
+/usr/bin/udevadm control --reload-rules
+/usr/bin/udevadm trigger
+/sbin/ldconfig
+
+exit 0
